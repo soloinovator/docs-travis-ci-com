@@ -2,14 +2,14 @@ source 'https://rubygems.org'
 
 ruby '~> 3.2'
 
-gem 'faraday'
+gem 'faraday', '>= 2.14.0'
 gem 'html-proofer', '~> 3.0'
 gem 'jekyll', '~> 4.3'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
 gem 'puma'
 gem 'pry', group: :test
-gem 'rack', '~> 3.0'
+gem 'rack', '~> 3.1', '>= 3.1.18'
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
 gem 'rake'
