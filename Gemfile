@@ -9,7 +9,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
 gem 'puma'
 gem 'pry', group: :test
-gem 'rack', '~> 3.0'
+gem 'rack', '~> 3.1', '>= 3.1.18'
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
 gem 'rake'
