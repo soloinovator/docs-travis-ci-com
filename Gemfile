@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '~> 3.2'
 
-gem 'faraday'
+gem 'faraday', '>= 2.14.1'
 gem 'html-proofer', '~> 3.0'
 gem 'jekyll', '~> 4.3'
 gem 'jekyll-paginate'
